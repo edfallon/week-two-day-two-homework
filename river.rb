@@ -13,4 +13,8 @@ class River
     return @fish
   end
 
+  def lose_fish(fish)
+    @fish.delete(fish)
+  end
+
 end # end of class
