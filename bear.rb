@@ -19,4 +19,11 @@ class Bear
    river.lose_fish(fish)
   end
 
+  def bears_roar()
+    return "roar"
+  end
+
+  def stomach_count()
+    return @stomach.count
+  end 
 end #end of class

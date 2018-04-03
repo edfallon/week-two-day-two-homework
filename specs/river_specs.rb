@@ -30,4 +30,9 @@ class RiverTest < Minitest::Test
    assert_equal([@fish2, @fish3], @river1.fish)
  end
 
+ def test_fish_count()
+   assert_equal(3, @river1.fish_count())
+   
+ end
+
 end #end of class
